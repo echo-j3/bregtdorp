@@ -1,8 +1,8 @@
-import fetcher from '$lib/fetcher';
-import { json } from '@sveltejs/kit';
+import fetcher from "$lib/fetcher";
+import { json } from "@sveltejs/kit";
 
 const query = `query GetDiscussion($number: Int = 100) {
-    repository(name: "bregtdorp", owner: "echo-j3") {
+    repository(name: "kennel", owner: "quennvonkatum") {
       discussion(number: $number) {
         bodyHTML
         title
@@ -12,18 +12,18 @@ const query = `query GetDiscussion($number: Int = 100) {
   }`;
 
 export const GET = async ({ params: { number }, fetch, setHeaders }) => {
-	const variables = { number: parseInt(number) };
-	try {
-		const {
-			repository: { discussion }
-		} = await fetcher(query, variables, fetch);
+  const variables = { number: parseInt(number) };
+  try {
+    const {
+      repository: { discussion },
+    } = await fetcher(query, variables, fetch);
 
-		setHeaders({
-			'Cache-Control': 'max-age=600'
-		});
+    setHeaders({
+      "Cache-Control": "max-age=600",
+    });
 
-		return json(discussion);
-	} catch (error) {
-		console.log(error);
-	}
+    return json(discussion);
+  } catch (error) {
+    console.log(error);
+  }
 };
