@@ -1,5 +1,5 @@
 <script lang="ts">
-  const bregtdorp = "bregtdorp.jpg";
+  import bregtdorp from "../lib/images/bregtdorp.jpg";
 </script>
 
 <section class="landing">

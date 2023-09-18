@@ -1,5 +1,5 @@
 <script lang="ts">
-  const sanusImage = "sanus_canibus.jpg";
+  import sanusImage from "../lib/images/sanus_canibus.jpg";
 </script>
 
 <div class="promoter-banner">

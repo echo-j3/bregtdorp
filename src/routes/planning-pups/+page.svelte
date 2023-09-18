@@ -10,8 +10,8 @@
     "HdG vrij",
     "Embark en DNA Getest",
   ];
-  const planningpic1 = "wolf/wolf7.jpg";
-  const planningpic2 = "gaya/gaya6.jpg";
+  import planningpic1 from "$lib/images/wolf/wolf7.jpg";
+  import planningpic2 from "$lib/images/gaya/gaya6.jpg";
 </script>
 
 <div class="container">

@@ -1,8 +1,9 @@
 <script lang="ts">
-  const about1 = "about1.jpg";
-  const about2 = "about2.jpg";
-  const about3 = "about3.jpg";
-  const about4 = "about4.jpg";
+  import about1 from "../../lib/images/about1.jpg";
+  import about2 from "../../lib/images/about2.jpg";
+  import about3 from "../../lib/images/about3.jpg";
+  import about4 from "../../lib/images/about4.jpg";
+
   const aboutText =
     "Wij zijn Carin en Arno Jellema en wonen in het mooie dorp Schoorl. Onze eerste oudduitse herder, Tommy kwam vijftien jaar geleden in ons gezin en sindsdien zijn wij enorm verbonden met dit ras. Na zijn dood kwam Gaya bij ons, een teef, die onze andere hond een Tibetaanse terrier die we Teuntje genoemd hebben, gezelschap kwam geven. Beiden zijn heel erg verschillend, maar onafscheidelijk en lief voor elkaar.";
 

@@ -1,8 +1,9 @@
 <script lang="ts">
   import Button from "../components/Button.svelte";
 
-  const gaya = "gayatroon.jpg";
-  const strand = "strand.jpg";
+  import gaya from "../lib/images/gayatroon.jpg";
+  import strand from "$lib/images/strand.jpg";
+
   const text1 =
     "In de luwte van de duinen, dichtbij het strand, de zee en het bos, ligt Kennel van het Bregtdorp";
   const text2 =

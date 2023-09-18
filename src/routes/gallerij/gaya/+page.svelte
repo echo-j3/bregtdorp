@@ -1,10 +1,18 @@
 <script>
-  const gaya0 = "/gaya/gaya0.jpg";
+  import gaya0 from "$lib/images/gaya/gaya0.jpg";
+  import gaya1 from "$lib/images/gaya/gaya1.jpg";
+  import gaya2 from "$lib/images/gaya/gaya2.jpg";
+  import gaya3 from "$lib/images/gaya/gaya3.jpg";
+  import gaya4 from "$lib/images/gaya/gaya4.jpg";
+  import gaya5 from "$lib/images/gaya/gaya5.jpg";
+  import gaya6 from "$lib/images/gaya/gaya6.jpg";
+  import gaya7 from "$lib/images/gaya/gaya7.jpg";
+
+  const pics = [gaya0, gaya1, gaya2, gaya3, gaya4, gaya5, gaya6, gaya7];
 </script>
 
 <div class="container">
-  <img src={gaya0} alt="" />
-  <!-- {#if data.res === 0}
+  {#if pics.length === 0}
     <div class="text">
       <h1>Geen foto's gevonden</h1>
       <a href="/gallerij">Ga Terug</a>
@@ -15,7 +23,7 @@
         <img src={pic} alt="" />
       </a>
     {/each}
-  {/if} -->
+  {/if}
 </div>
 
 <style>
