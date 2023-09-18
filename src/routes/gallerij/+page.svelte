@@ -1,7 +1,7 @@
 <script>
-  const wolf = "wolf/wolf8.jpg";
-  const gaya = "gaya/gaya6.jpg";
-  const pups = "pups/pups.jpg";
+  import wolf from "$lib/images/wolf/wolf8.jpg";
+  import gaya from "$lib/images/gaya/gaya0.jpg";
+  import pups from "$lib/images/pups/pups.jpg";
 </script>
 
 <div class="gallery-wrapper">
