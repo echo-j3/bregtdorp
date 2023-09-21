@@ -1,6 +1,6 @@
 <script>
-  import wolf from "$lib/images/wolf/wolf8.jpg";
-  import gaya from "$lib/images/gaya/gaya0.jpg";
+  import wolf from "$lib/images/wolf/wolf3.jpg";
+  import gaya from "$lib/images/gaya/gaya6.jpg";
   import pups from "$lib/images/pups/pups.jpg";
 </script>
 

@@ -10,7 +10,7 @@
     "HdG vrij",
     "Embark en DNA Getest",
   ];
-  import planningpic1 from "$lib/images/wolf/wolf7.jpg";
+  import planningpic1 from "$lib/images/wolf/wolf3.jpg";
   import planningpic2 from "$lib/images/gaya/gaya6.jpg";
 </script>
 
