@@ -36,3 +36,10 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+# Functionality
+
+This website is created for a small dog breeder. It is hosted on Vercel and the live product is https://bregtdorp-jochemjellema-outlookcom.vercel.app/
+
+The blog is maintained from a discussion feed inside a github repository. With the help of graphql github explorer finding and reading the discussion board and showing the data inside this blog element.
+
